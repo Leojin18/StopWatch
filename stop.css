@@ -1,0 +1,62 @@
+*{
+background: url("https://img.freepik.com/free-psd/holographic-3d-geometric-stage-product-placement-with-rings-background-editable-color_167960-32.jpg?size=626&ext=jpg&uid=R113495776&ga=GA1.2.76024319.1692551657&semt=ais");
+}
+.stopwatch{
+   max-width: 600px;
+    background-image: linear-gradient(135deg,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+min-height: 60vh;
+background-position: center;
+background-size: cover;
+text-align: center;
+color: #fff;
+margin: 0 auto;
+border-radius: 10px;
+backdrop-filter: blur(10px);  
+box-shadow:0 8px 32px 0 rgba(0, 0, 0, 0.37) ; 
+padding: 40px 0;
+margin-top: 70px;
+
+}
+
+.stopwatch img,h1,.buttons{
+    background: none;
+}
+.stopwatch h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font: 1em sans-serif;
+margin-top: 60px;
+font-size: 70px;
+font-weight: 300;
+
+}
+.buttons img :nth-child(2){
+    width: 80px;
+}.buttons img :nth-child(3){
+    width: 80px;
+}
+.buttons img :nth-child(1){
+   margin: 20px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: background-image 0.5s;
+}
+.buttons img{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+#hrs{
+content: 'Minutes';
+
+}
+#min{
+    
+    content: 'Minutes';
+}
+#sec{
+    content: 'Seconds';
+}
+
+
