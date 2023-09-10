@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> STOPWATCH</title>
+    <link rel="stylesheet" href="stop.css">
+</head>
+<body>
+   
+    <div class="stopwatch">
+
+        <h1 id="displaytime">
+            
+                <span id="hrs"> 00 </span> 
+                <span>:</span>
+            
+           
+            <span id="min">00</span>
+            <span>:</span>
+                <span id="sec">00</span>
+                
+                </h1>
+                    <div class="buttons">
+              <img id="playButton"  onclick="toggleTimer()">
+            <img src="https://cdn-icons-png.flaticon.com/128/7477/7477009.png" onclick="start()">
+            <img src="https://cdn-icons-png.flaticon.com/128/2499/2499263.png" onclick="stop()">
+        </div>
+    </div>
+
+    <script src="stop.js">
+
+    </script>
+</body>
+</html>
